@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Network</title>
+
+    <link rel="stylesheet" href="./assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="./assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.6.0-web/css/all.css">
+</head>
+
+<body>
+    <header class="d-flex align-items-center justify-content-around bg-muted">
+        <h1>Ad Network</h1>
+        <div class="fa-solid fa-bars" id="menubar"></div>
+        <nav class="">
+            <ul class="nav-header">
+                <li><a href="#home" class="text-decoration-none">Home</a></li>
+                <li><a href="#ranks" class="text-decoration-none">Ranks</a></li>
+                <li><a href="#coinshop" class="text-decoration-none">Coinshop</a></li>
+                <li><a href="#donate" class="text-decoration-none">Donate</a></li>
+                <li><a href="#about" class="text-decoration-none">About</a></li>
+
+                <li class="btn btn-primary" data-bs-target="#login" data-bs-toggle="modal">Login In</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- login  -->
+
+
+
+    <div class="modal fade" id="login">
+        <div class="modal-dialog modal-sm modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login</h4>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <P>Minecrafr username :</P>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-bs-dismiss="modal">Login In</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+        <section id="home" class="bg-info">
+            <div class="contain">
+                <h3 class="pt-5 text-dark">Welcome to Ad Network</h3>
+                <h6 class="mt-3">✨ Your Ultimate Minecraft Store ✨</h6>
+                <p class="home-contain text-white mt-3">
+                    Greetings, adventurer! 🧙‍♂️ Step into a world where your Minecraft dreams come true. Whether you're
+                    gearing up for your next epic quest or looking for the perfect building blocks to create your dream
+                    world, we've got you covered. Dive into our treasure trove of unique items, and let your creativity
+                    run
+                    wild!
+                </p>
+                <p class="text-white">Happy crafting 🌟🗺️</p>
+            </div>
+            <div class="owner">
+                <h1 class="mt-4"><span>Owner :</span> Agamxd</h1>
+                <div>
+                    <p><a href="https://discord.com/invite/zZ2SuFeQfb"> <span class="fa-brands fa-discord"
+                                style="color:#5865F2 ;"></span>Join Discord </a></p>
+                    <p><a href="https://youtu.be/vlh9nrJvtr0?si=1YQwtw9zzdd5rzjI"><span class="fa-brands fa-youtube"
+                                style="color: #FF0000;"></span> Subscribe Youtube</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="ranks">
+
+            <h2 class="text-center mt-5 text-decoration-underline">Ranks</h2>
+
+            <div class="demon">
+                <table class="table table-centered mt-5">
+                    <tr align="center">
+                        <td>Demon Rank</td>
+                        <td>₹99</td>
+                        <td colspan="3"><span class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#demon">Buy
+                                Rank</span></td>
+                    </tr>
+                    <tr align="center">
+                        <td>Angel Rank</td>
+                        <td>₹199</td>
+                        <td><span class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#angel">Buy Rank</span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>D.angel Rank</td>
+                        <td>₹299</td>
+                        <td><span class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#d.angel">Buy
+                                Rank</span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>God Rank</td>
+                        <td>₹499</td>
+                        <td><span class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#god">Buy Rank</span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>Hacker Rank</td>
+                        <td>₹949</td>
+                        <td><span class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#hacker">Buy Rank</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="modal fade" id="demon">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Demon Rank</h4>
+                            <button class="btn-close" data-bs-dismiss="modal">
+
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+                            <h5>Perks</h5>
+                            <ul class="rank-access">
+
+                                <li>📋 Access to:</li>
+
+                                <ul>
+                                    <li>🎩 /hat</li>
+                                    <li>🪑 /sit</li>
+                                    <li>💫 /spin</li>
+                                    <li>💥 /crawl</li>
+                                    <li>⭕ /lay </li>
+                                </ul>
+
+                                <li> 🛠️ Create: </li>
+
+                                <ul>
+                                    <li> 📢 Up to 7 auction listings</li>
+                                    <li> 🌀 Up to 3 player warps </li>
+                                    <li> 🏡 Up to 3 sethome limits </li>
+                                    <li> 📦 Up to 2 private vault listings </li>
+                                </ul>
+
+                                <li> 🎁 Bonus: </li>
+                                <ul>
+                                    <li> 🪙 +1000 coins</li>
+                                    <li> ⏱️ +5000 claim blocks</li>
+                                    <li> 💵 +50,000 ingame money</li>
+                                </ul>
+
+                                <li>Claim cooldown 10 days</li>
+                            </ul>
+                            <img src="./assets/img/2024-08-09_13.01.34.png" class="kit-img" alt="">
+
+                            <h6 class="mt-3"> Armour: </h6>
+                            <ul class="list-unstyled">
+                                <li> <b>Helmet: </b>Aqua Affinity IV, Meding II, Protection VI, Respiration IV,
+                                    Unbreaking IV </li>
+                                <li> <b> Chestplate: </b>Meding II, Protection VI, Unbreaking IV </li>
+                                <li> <b> Leggings: </b>Meding II, Protection VI, Swift Sneak IV,
+                                    Unbreaking IV </li>
+                                <li> <b> Boots: </b>Meding II, Protection VI, Feather Falling V,
+                                    Unbreaking IV </li>
+                            </ul>
+                            <h6 class="mt-3"> Tools: </h6>
+
+                            <ul class="list-unstyled">
+                                <li> <b>Sword: </b>Fire Aspect III, Looting IV, Unbreaking IV, Sharpness VI, Meding II
+                                </li>
+                                <li> <b> Pickaxe: </b>Unbreaking IV, Fortune IV, Efficiency VI, Meding II</li>
+                                <li> <b> Axe: </b>Unbreaking IV, Meding II, Fortune IV, Efficiency VI</li>
+                                <li> <b> Shovel: </b>Unbreaking IV, Meding II, Fortune IV, Efficiency VI</li>
+                                <li> <b> Hoe: </b>Unbreaking IV, Meding II, Fortune IV, Efficiency VI</li>
+                            </ul>
+
+                        </div>
+                        <div class="modal-footer">
+                            <h3>Price: 99</h3>
+
+                            <button class="btn btn-danger" data-bs-toggle="modal"
+                                data-bs-target="#payment">Payment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="angel">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Angel Rank</h4>
+                            <button class="btn-close" data-bs-dismiss="modal">
+
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+                            <h5>Perks</h5>
+                            <ul class="rank-access">
+
+                                <li>📋 Access to:</li>
+
+                                <ul>
+                                    <li>🎩 /hat</li>
+                                    <li>🪑 /sit</li>
+                                    <li>💫 /spin</li>
+                                    <li>💥 /crawl</li>
+                                    <li>⭕ /lay </li>
+                                </ul>
+
+                                <li> 🛠️ Create: </li>
+
+                                <ul>
+                                    <li> 📢 Up to 10 auction listings</li>
+                                    <li> 🌀 Up to 5 player warps </li>
+                                    <li> 🏡 Up to 5 sethome limits </li>
+                                    <li> 📦 Up to 3 private vault listings </li>
+                                </ul>
+
+                                <li> 🎁 Bonus: </li>
+                                <ul>
+                                    <li> 🪙 +3000 coins</li>
+                                    <li> ⏱️ +10,000 claim blocks</li>
+                                    <li> 💵 +1,00,000 ingame money</li>
+                                </ul>
+                                <li>Claim cooldown 10 days</li>
+
+                            </ul>
+                            <img src="./assets/img/2024-08-09_13.02.34.png" class="kit-img" alt="">
+
+                            <h6 class="mt-3"> Armour: </h6>
+                            <ul class="list-unstyled">
+                                <li> <b>Helmet: </b>Aqua Affinity V, Meding III, Protection VI, Respiration V,
+                                    Unbreaking V </li>
+                                <li> <b> Chestplate: </b>Meding III, Protection VI, Unbreaking V </li>
+                                <li> <b> Leggings: </b>Meding III, Protection VI, Swift Sneak V,
+                                    Unbreaking V </li>
+                                <li> <b> Boots: </b>Meding III, Protection VI, Feather Falling VI,
+                                    Unbreaking V </li>
+                            </ul>
+                            <h6 class="mt-3"> Tools: </h6>
+
+                            <ul class="list-unstyled">
+                                <li> <b>Sword: </b>Fire Aspect IV, Looting V, Unbreaking V, Sharpness VI, Meding III
+                                </li>
+                                <li> <b> Pickaxe: </b>Unbreaking V, Fortune V, Efficiency VII, Meding III</li>
+                                <li> <b> Axe: </b>Unbreaking V, Meding III, Fortune V, Efficiency VII</li>
+                                <li> <b> Shovel: </b>Unbreaking V, Meding III, Fortune V, Efficiency VII</li>
+                                <li> <b> Hoe: </b>Unbreaking V, Meding III, Fortune V, Efficiency VII</li>
+                            </ul>
+
+                        </div>
+                        <div class="modal-footer">
+                            <h3>Price: 199</h3>
+
+                            <button class="btn btn-danger" data-bs-toggle="modal"
+                                data-bs-target="#payment">Payment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="modal fade" id="d.angel">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">D.angel Rank</h4>
+                            <button class="btn-close" data-bs-dismiss="modal">
+
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+                            <h5>Perks</h5>
+                            <ul class="rank-access">
+
+                                <li>📋 Access to:</li>
+
+                                <ul>
+                                    <li>💢 /anvil</li>
+                                    <li>🧰 /enderchest</li>
+                                    <li>🕑 /afk</li>
+                                    <li>🎩 /hat</li>
+                                    <li>🪑 /sit</li>
+                                    <li>💫 /spin</li>
+                                    <li>💥 /crawl</li>
+                                    <li>⭕ /lay </li>
+                                </ul>
+
+                                <li> 🛠️ Create: </li>
+
+                                <ul>
+                                    <li> 📢 Up to 15 auction listings</li>
+                                    <li> 🌀 Up to 10 player warps </li>
+                                    <li> 🏡 Up to 10 sethome limits </li>
+                                    <li> 📦 Up to 5 private vault listings </li>
+                                </ul>
+
+                                <li> 🎁 Bonus: </li>
+                                <ul>
+                                    <li> 🪙 +5000 coins</li>
+                                    <li> ⏱️ +15,000 claim blocks</li>
+                                    <li> 💵 +1,50,000 ingame money</li>
+                                </ul>
+                                <li>Claim cooldown 10 days</li>
+                                <li>Yes,Spawners can be broken with silk touch.</li>
+                            </ul>
+                            <img src="./assets/img/2024-08-09_13.02.42.png" class="kit-img" alt="">
+
+                            <h6 class="mt-3"> Armour: </h6>
+                            <ul class="list-unstyled">
+                                <li> <b>Helmet: </b>Aqua Affinity IV, Meding IV, Protection VIII,Blast Protection VII
+                                    Respiration IV,
+                                    Unbreaking VI </li>
+                                <li> <b> Chestplate: </b>Meding IV,Blast Protection VII, Protection VIII, Unbreaking VI
+                                </li>
+                                <li> <b> Leggings: </b>Meding IV, Protection VIII, Swift Sneak VIi,Blast Protection VII,
+                                    Unbreaking VI </li>
+                                <li> <b> Boots: </b>Meding IV, Protection VIII, Feather Falling VI,Blast Protection VII
+                                    Unbreaking VI </li>
+                            </ul>
+                            <h6 class="mt-3"> Tools: </h6>
+
+                            <ul class="list-unstyled">
+                                <li> <b>Sword: </b>Fire Aspect V, Looting VI, Unbreaking VI, Sharpness VII, Meding IV
+                                </li>
+                                <li> <b> Pickaxe: </b>Unbreaking VI, Fortune VI, Efficiency VIII, Meding IV</li>
+                                <li> <b> Axe: </b>Unbreaking VI, Meding IV, Fortune VI, Efficiency VIII</li>
+                                <li> <b> Shovel: </b>Unbreaking VI, Meding II, Fortune IV, Efficiency VI</li>
+                                <li> <b> Hoe: </b>Unbreaking VI, Meding IV, Fortune VI, Efficiency VIII</li>
+                            </ul>
+
+                        </div>
+                        <div class="modal-footer">
+                            <h3>Price: 299</h3>
+
+                            <button class="btn btn-danger" data-bs-toggle="modal"
+                                data-bs-target="#payment">Payment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="modal fade" id="god">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">God Rank</h4>
+                            <button class="btn-close" data-bs-dismiss="modal">
+
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+                            <h5>Perks</h5>
+                            <ul class="rank-access">
+
+                                <li>📋 Access to:</li>
+
+                                <ul>
+                                    <li>💢 /anvil</li>
+                                    <li>🧰 /enderchest</li>
+                                    <li>🕑 /afk</li>
+                                    <li>🎩 /hat</li>
+                                    <li>🪑 /sit</li>
+                                    <li>💫 /spin</li>
+                                    <li>💥 /crawl</li>
+                                    <li>⭕ /lay </li>
+                                </ul>
+
+                                <li> 🛠️ Create: </li>
+
+                                <ul>
+                                    <li> 📢 Up to 20 auction listings</li>
+                                    <li> 🌀 Up to 20 player warps </li>
+                                    <li> 🏡 Up to 15 sethome limits </li>
+                                    <li> 📦 Up to 10 private vault listings </li>
+                                </ul>
+
+                                <li> 🎁 Bonus: </li>
+                                <ul>
+                                    <li> 🪙 +10,000 coins</li>
+                                    <li> ⏱️ +30,000 claim blocks</li>
+                                    <li> 💵 +2,00,000 ingame money</li>
+                                </ul>
+                                <li>Claim cooldown 10 days</li>
+                                <li>Yes,Spawners can be broken with silk touch.</li>
+
+                            </ul>
+                            <img src="./assets/img/2024-08-09_13.02.51.png" class="kit-img" alt="">
+
+                            <h6 class="mt-3"> Armour: </h6>
+                            <ul class="list-unstyled">
+                                <li> <b>Helmet: </b>Aqua Affinity VII, Meding V,Fire Protection VIII, Protection
+                                    VIII,Blast Protection VIII
+                                    Respiration IV,
+                                    Unbreaking VII </li>
+                                <li> <b> Chestplate: </b>Meding V,Blast Protection VIII, Protection VIII,Fire Protection
+                                    VIII, Unbreaking VII
+                                </li>
+                                <li> <b> Leggings: </b>Meding V, Protection VIII, Swift Sneak VIII,Blast Protection VII,
+                                    Fire Protection VIII,
+                                    Unbreaking VII </li>
+                                <li> <b> Boots: </b>Meding V, Protection VIII, Feather Falling VI,Blast Protection VII,
+                                    Fire Protection VIII,
+                                    Unbreaking VII </li>
+                            </ul>
+                            <h6 class="mt-3"> Tools: </h6>
+
+                            <ul class="list-unstyled">
+                                <li> <b>Sword: </b>Fire Aspect VI, Looting VII, Unbreaking VII, Sharpness VIII, Meding V
+                                </li>
+                                <li> <b> Pickaxe: </b>Unbreaking VII, Fortune VII, Efficiency IX, Meding V</li>
+                                <li> <b> Axe: </b>Unbreaking VII, Meding V, Fortune VII, Efficiency IX</li>
+                                <li> <b> Shovel: </b>Unbreaking VII, Meding V, Fortune VII, Efficiency IX</li>
+                                <li> <b> Hoe: </b>Unbreaking VII, Meding V, Fortune VII, Efficiency IX</li>
+                            </ul>
+
+                        </div>
+                        <div class="modal-footer">
+                            <h3>Price: 499</h3>
+
+                            <button class="btn btn-danger" data-bs-toggle="modal"
+                                data-bs-target="#payment">Payment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="modal fade" id="hacker">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Hacker Rank</h4>
+                            <button class="btn-close" data-bs-dismiss="modal">
+
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+                            <h5>Perks</h5>
+                            <ul class="rank-access">
+
+                                <li>📋 Access to:</li>
+
+                                <ul>
+                                    <li>💢 /anvil</li>
+                                    <li>🧰 /enderchest</li>
+                                    <li>🕑 /afk</li>
+                                    <li>🎩 /hat</li>
+                                    <li>🪑 /sit</li>
+                                    <li>💫 /spin</li>
+                                    <li>💥 /crawl</li>
+                                    <li>⭕ /lay </li>
+                                </ul>
+
+                                <li> 🛠️ Create: </li>
+
+                                <ul>
+                                    <li> 📢 Up to 25 auction listings</li>
+                                    <li> 🌀 Up to 25 player warps </li>
+                                    <li> 🏡 Up to 25 sethome limits </li>
+                                    <li> 📦 Up to 25 private vault listings </li>
+                                </ul>
+
+                                <li> 🎁 Bonus: </li>
+                                <ul>
+                                    <li> 🪙 +15,000 coins</li>
+                                    <li> ⏱️ +60,000 claim blocks</li>
+                                    <li> 💵 +5,00,000 ingame money</li>
+                                </ul>
+                                <li>Claim cooldown 10 days</li>
+                                <li>Yes,Spawners can be broken with silk touch.</li>
+
+                            </ul>
+                            <img src="./assets/img/2024-08-09_13.02.59.png" class="kit-img" alt="">
+
+                            <h6 class="mt-3"> Armour: </h6>
+                            <ul class="list-unstyled">
+                                <li> <b>Helmet: </b>Aqua Affinity X, Projectile Protection X, Meding I,Fire Protection
+                                    X, Protection
+                                    X,Blast Protection X
+                                    Respiration X,
+                                    Unbreaking VIII </li>
+                                <li> <b> Chestplate: </b>Meding I, Blast Protection X, Projectile Protection X,
+                                    Protection X, Fire Protection
+                                    X, Unbreaking VIII
+                                </li>
+                                <li> <b> Leggings: </b>Meding I, Protection X, Swift Sneak X,Blast Protection X,
+                                    Projectile Protection X,
+                                    Fire Protection X,
+                                    Unbreaking VIII </li>
+                                <li> <b> Boots: </b>Meding I, Protection X, Feather Falling X,Blast Protection X,
+                                    Projectile Protection X,
+                                    Fire Protection X,
+                                    Unbreaking VIII, Soul Speed X </li>
+                            </ul>
+                            <h6 class="mt-3"> Tools: </h6>
+
+                            <ul class="list-unstyled">
+                                <li> <b>Sword: </b>Fire Aspect X, Looting X, Unbreaking VIII, Sharpness IX, Meding I,
+                                    Smite X
+                                </li>
+                                <li> <b> Pickaxe: </b>Unbreaking VIII, Fortune X, Efficiency X, Meding I</li>
+                                <li> <b> Axe: </b>Unbreaking VIII, Meding I, Fortune X, Efficiency X</li>
+                                <li> <b> Shovel: </b>Unbreaking VIII, Meding I, Fortune X, Efficiency X</li>
+                                <li> <b> Hoe: </b>Unbreaking VIII, Meding I, Fortune X, Efficiency X</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <h3>Price: 949</h3>
+
+                            <button class="btn btn-danger" data-bs-toggle="modal"
+                                data-bs-target="#payment">Payment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Payment method  -->
+
+            <div class="modal fade" id="payment">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Payment Method</h4>
+                            <button class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>
+                                Note:
+                            </h3>
+                            <p>
+                                You have to create a ticket in our discord server and send the screenshot of payment and
+                                your ingame-name</p>
+                            <p><a href="https://discord.com/invite/zZ2SuFeQfb"> <span class="fa-brands fa-discord"
+                                        style="color:#5865F2 ;"></span>Join Discord </a></p>
+
+                            <div class="d-flex justify-content-center">
+                                <img src="./assets/img/Screenshot 2024-08-09 094202.png" class="payment-img" alt="">
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+
+        <section id="coinshop">
+            <h2 class="text-center mt-5 text-decoration-underline">Coinshop</h2>
+
+            <table class="table mt-5">
+                <tr align="center">
+                    <td>🚀1800 Coins:₹99</td>
+                    <td><button class="btn btn-primary" data-bs-target="#payment" data-bs-toggle="modal">Buy
+                            Coin</button></td>
+                </tr>
+                <tr align="center">
+                    <td>🚀4000 Coins:₹199</td>
+                    <td><button class="btn btn-primary" data-bs-target="#payment" data-bs-toggle="modal">Buy
+                            Coin</button></td>
+                </tr>
+                <tr align="center">
+                    <td>🚀5000 Coins:₹250</td>
+                    <td><button class="btn btn-primary" data-bs-target="#payment" data-bs-toggle="modal">Buy
+                            Coin</button></td>
+                </tr>
+                <tr align="center">
+                    <td>🚀7500 Coins:₹375</td>
+                    <td><button class="btn btn-primary" data-bs-target="#payment" data-bs-toggle="modal">Buy
+                            Coin</button></td>
+                </tr>
+                <tr align="center">
+                    <td>🚀10000 Coins:₹500</td>
+                    <td><button class="btn btn-primary" data-bs-target="#payment" data-bs-toggle="modal">Buy
+                            Coin</button></td>
+                </tr>
+                <tr align="center">
+                    <td>🚀15000 Coins:₹750</td>
+                    <td><button class="btn btn-primary" data-bs-target="#payment" data-bs-toggle="modal">Buy
+                            Coin</button></td>
+                </tr>
+                <tr align="center">
+                    <td>🚀20000 Coins:₹1000</td>
+                    <td><button class="btn btn-primary" data-bs-target="#payment" data-bs-toggle="modal">Buy
+                            Coin</button></td>
+                </tr>
+            </table>
+            <h5 class="text-center">For More than 20k Coins, create a ticket and get a special deal!</h5>
+
+        </section>
+        <section class="donate" id="donate">
+            <h2 class="text-center mt-5 text-decoration-underline">Donate</h2>
+
+            <p class="mt-3">"Love playing on our server? Show your support by donating! Your Contributions help us
+                Improve and
+                maintain the server. Support our server and help us keep it running smoothly! Donate [amount] and
+                receive exclusive in-game rewards."</p>
+            <button class="mt-3 btn btn-danger" data-bs-target="#payment" data-bs-toggle="modal">Donate For
+                money</button>
+        </section>
+        <section class="about" id="about">
+            <h2 class="text-center text-decoration-underline mt-5">About</h2>
+
+            <div class="card container mt-3">
+                <h5> About AdNetwork 📢</h5>
+
+                <p> Welcome to AdNetwork, the premier advertising network tailored for the Minecraft universe! 🌍✨
+                </p>
+                <h6> Discover Our Features:</h6>
+
+                <p> <b> 🎯 Precision Targeting: </b> Reach Minecraft players with ads specifically tailored to their
+                    interests and
+                    in-game activities.
+                    <br />
+                    <b> 🛠️ Seamless Integration: </b>Easily embed your ads into Minecraft worlds with our user-friendly
+                    tools and
+                    get noticed effortlessly.
+                    <br />
+                    <b> 📊 Real-Time Insights: </b> Monitor and analyze your ad performance with our comprehensive
+                    analytics
+                    dashboard to maximize impact.
+                    <br />
+                    <b> 🎨 Creative Ad Formats: </b>Utilize innovative ad formats that integrate smoothly into the
+                    Minecraft
+                    experience, making your brand stand out.
+
+                </p>
+
+                <h6>Why AdNetCraft?
+                </h6>
+
+                <p>
+                    <b> 🚀 Cutting-Edge Technology: </b> Benefit from our advanced ad technology designed to enhance
+                    visibility and
+                    engagement within Minecraft. <br />
+                    <b> 🤝 Expert Support: </b> Our dedicated team provides exceptional support, ensuring your campaigns
+                    are
+                    optimized and effective. <br />
+                    <b> 📈 Scalable Solutions: </b>From small promotions to large-scale campaigns, our platform scales
+                    to fit your
+                    advertising needs.
+                </p>
+
+                <h6> Getting Started is Easy: </h6>
+
+                <p>
+                    <b> 🔑 Sign Up: </b>Join AdNetwork and gain access to our powerful advertising tools. <br />
+                    <b> 🎨 Create Ads: </b> Design eye-catching ads that resonate with the Minecraft community.
+                    <br /> <b> 🚀 Launch & Optimize: </b> Deploy your campaigns and track performance in real-time to
+                    achieve
+                    your goals.
+                </p>
+                <p>
+                    Elevate your Minecraft advertising with AdNetCraft and make a powerful impact in the blocky world of
+                    Minecraft! Let’s build extraordinary campaigns together. 🌟
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="mt-5">
+        <a href="#">copyright ad network offcial</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Your Feedback</a>
+    </footer>
+
+    <!-- script  -->
+    <script src="./assets/js/jquery-3.7.1.js"></script>
+    <script src="./assets/js/type.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
